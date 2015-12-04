@@ -13,7 +13,7 @@ View controller presented with performSegue is never deallocated if the transiti
 ## Expected Results:
 The transition is cancelled and the view controller that was created is released and deallocated
 
-##mActual Results:
+## Actual Results:
 The transition is cancelled but the presented view controller is retained. Repeated calls to the segue continue to create new instances of the view controller that are never released.
 
 ## Regression:
