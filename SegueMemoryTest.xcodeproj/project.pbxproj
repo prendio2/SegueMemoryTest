@@ -15,6 +15,8 @@
 		93036B6B1C116F1200BAF5AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93036B691C116F1200BAF5AF /* LaunchScreen.storyboard */; };
 		93036B761C116F1200BAF5AF /* SegueMemoryTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 93036B751C116F1200BAF5AF /* SegueMemoryTestTests.m */; };
 		93036B811C116F1200BAF5AF /* SegueMemoryTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 93036B801C116F1200BAF5AF /* SegueMemoryTestUITests.m */; };
+		93036B901C11715200BAF5AF /* SUPTransitionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93036B8F1C11715200BAF5AF /* SUPTransitionController.m */; };
+		93036B931C117B0A00BAF5AF /* ModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93036B921C117B0A00BAF5AF /* ModalViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		93036B7C1C116F1200BAF5AF /* SegueMemoryTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SegueMemoryTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		93036B801C116F1200BAF5AF /* SegueMemoryTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SegueMemoryTestUITests.m; sourceTree = "<group>"; };
 		93036B821C116F1200BAF5AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93036B8E1C11715200BAF5AF /* SUPTransitionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SUPTransitionController.h; sourceTree = "<group>"; };
+		93036B8F1C11715200BAF5AF /* SUPTransitionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SUPTransitionController.m; sourceTree = "<group>"; };
+		93036B911C117B0A00BAF5AF /* ModalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModalViewController.h; sourceTree = "<group>"; };
+		93036B921C117B0A00BAF5AF /* ModalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModalViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,10 @@
 				93036B5F1C116F1200BAF5AF /* AppDelegate.m */,
 				93036B611C116F1200BAF5AF /* ViewController.h */,
 				93036B621C116F1200BAF5AF /* ViewController.m */,
+				93036B911C117B0A00BAF5AF /* ModalViewController.h */,
+				93036B921C117B0A00BAF5AF /* ModalViewController.m */,
+				93036B8E1C11715200BAF5AF /* SUPTransitionController.h */,
+				93036B8F1C11715200BAF5AF /* SUPTransitionController.m */,
 				93036B641C116F1200BAF5AF /* Main.storyboard */,
 				93036B671C116F1200BAF5AF /* Assets.xcassets */,
 				93036B691C116F1200BAF5AF /* LaunchScreen.storyboard */,
@@ -272,7 +282,9 @@
 			files = (
 				93036B631C116F1200BAF5AF /* ViewController.m in Sources */,
 				93036B601C116F1200BAF5AF /* AppDelegate.m in Sources */,
+				93036B931C117B0A00BAF5AF /* ModalViewController.m in Sources */,
 				93036B5D1C116F1200BAF5AF /* main.m in Sources */,
+				93036B901C11715200BAF5AF /* SUPTransitionController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
